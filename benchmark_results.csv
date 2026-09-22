@@ -1,0 +1,8 @@
+Evaluation Level,Samples,Accuracy (%),Macro F1 (%),Precision (%),Recall (%),Target,Status,TP,FP,TN,FN
+Overall Master Test Set,5079,97.32,97.32,97.32,97.32,>= 95.0%,PASS,2512,65,2431,71
+Channel: EMAIL,2256,97.52,97.44,97.42,97.45,>= 96.0%,PASS,901,29,1299,27
+Channel: SMS,2082,97.07,96.49,96.56,96.43,>= 95.5%,PASS,1433,32,588,29
+Channel: SOCIAL_CHAT,741,97.44,96.61,97.56,95.75,>= 94.0%,PASS,178,4,544,15
+Test A (Standard Stratified),2538,97.36,97.36,97.35,97.37,>= 95.0%,PASS,1263,29,1208,38
+Test B (Unseen Templates),2541,97.28,97.28,97.29,97.28,>= 93.5%,PASS,1249,36,1223,33
+Test C (External Unseen Dataset),6309,94.67,94.43,94.06,94.9,>= 90.0%,PASS,3646,100,2327,236
